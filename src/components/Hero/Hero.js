@@ -10,7 +10,7 @@ const Hero = ({ id, setActiveSection, resumeFileName }) => {
         <section id={id} className="hero-section">
             <div className="hero-content">
                 <div className="profile-image-placeholder">
-                    <img src="assets/avatar.jpg" className='image-placeholder' alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/assets/avatar.jpg`} className='image-placeholder' alt="" />
                 </div>
                 <div className="hero-text">
                     <h1>Muhammad Sohaib Ali</h1>
