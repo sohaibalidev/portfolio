@@ -22,7 +22,7 @@ const Footer = ({ setActiveSection }) => {
 
         footerLinks.addEventListener('click', handleClick);
         return () => { footerLinks.removeEventListener('click', handleClick); };
-    }, []);
+    }, [setActiveSection]);
 
     return (
         <footer className="portfolio-footer">
