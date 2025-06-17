@@ -59,7 +59,7 @@ const ContactObj = {
     github: 'https://github.com/muhammadsohaibali',
     email: 'msohaibaliofficial@gmail.com',
     phone: '+923324819987',
-    resume: 'img.png'
+    resume: 'Resume.pdf'
 }
 
 module.exports = { skills, projects, ContactObj }
