@@ -6,7 +6,7 @@ import Skills from './components/Skills/Skills.js';
 import Projects from './components/Projects/Projects.js';
 import Contact from './components/Contact/Contact.js';
 import Footer from './components/Footer/Footer.js';
-import { skills, projects, ContactObj } from './src/staticData.js'
+import { skills, projects, ContactObj } from './staticData.js'
 import './App.css';
 
 function App() {

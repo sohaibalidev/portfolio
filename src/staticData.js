@@ -30,7 +30,6 @@ const skills = [
     { name: 'HTML5 & CSS3', category: 'Frontend' }
 ];
 
-
 const projects = [
     {
         title: 'NexaEase',
@@ -56,7 +55,7 @@ const projects = [
 ];
 
 const ContactObj = {
-    github: 'https://github.com/muhammadsohaibali',
+    github: 'https://github.com/sohaibalidev',
     email: 'msohaibaliofficial@gmail.com',
     phone: '+923324819987',
     resume: 'Resume.pdf'
