@@ -1,7 +1,8 @@
 /* Global Styles */
 :root {
-    --primary-color: #4f77ff;
-    --primary-hover: #3e63f5;
+    --primary-color: #008cff;
+    /* --primary-hover: #3e63f5; */
+    --primary-hover: #1897ff;
     --secondary-color: #121212;
     --background-color: #1b1e24;
     --text-color: #e0e0e0;
@@ -12,48 +13,6 @@
     --error-color: #f44336;
     --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-/* :root {                          // Better!
-    --primary-color: #00ff9f;
-    --primary-hover: #00e38b;
-    --secondary-color: #0d0d0d;
-    --background-color: #101010;
-    --text-color: #caffd9;
-    --card-bg: #141414;
-    --border-color: #1f1f1f;
-    --success-color: #00ff9f;
-    --warning-color: #ffea00;
-    --error-color: #ff1744;
-    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
-
-/* :root {                          // Better! RED
-  --primary-color: #ff3d57;
-  --primary-hover: #e6334c;
-  --secondary-color: #1a1a1a;
-  --background-color: #1c0f13;
-  --text-color: #ffeaea;
-  --card-bg: #241416;
-  --border-color: #3a1f23;
-  --success-color: #00e676;
-  --warning-color: #ffc107;
-  --error-color: #ff1744;
-  --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
-
-/* :root {                         // Better!
-  --primary-color: #cccccc;
-  --primary-hover: #ffffff;
-  --secondary-color: #111111;
-  --background-color: #191919;
-  --text-color: #e6e6e6;
-  --card-bg: #222222;
-  --border-color: #2c2c2c;
-  --success-color: #81c784;
-  --warning-color: #ffb74d;
-  --error-color: #e57373;
-  --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
 
 * {
     margin: 0;

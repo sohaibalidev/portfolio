@@ -6,6 +6,7 @@ const Hero = ({ id, setActiveSection, resumeFileName }) => {
         setActiveSection('home');
     }, [setActiveSection]);
 
+    console.log(resumeFileName)
     return (
         <section id={id} className="hero-section">
             <div className="hero-content">
@@ -20,8 +21,9 @@ const Hero = ({ id, setActiveSection, resumeFileName }) => {
                         apps with clean UI and solid backend.</p>
                     <div className="hero-buttons">
                         <a href="#contact" className="btn primary-btn">Contact Me</a>
-                        <a href={`/resume/${resumeFileName}`} className="btn secondary-btn" download>
-                            Download
+                        <a href={`${process.env.PUBLIC_URL}/resume/${resumeFileName}`}
+                            className="btn secondary-btn" download>
+                            Download Resume
                         </a>
                     </div>
                 </div>

@@ -1,10 +1,10 @@
-# dependencies
+# Folders
 /node_modules
-
-# production
 /build
+
+# Files
+resume.md
+update.yaml
 
 # environment
 .env
-resume.md
-update.yaml
