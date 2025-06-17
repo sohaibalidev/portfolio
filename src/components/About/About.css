@@ -1,0 +1,44 @@
+.about-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+.about-text p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.about-details {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.about-details h3 {
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+.about-details ul {
+    list-style: none;
+}
+
+.about-details li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.about-details strong {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+}
