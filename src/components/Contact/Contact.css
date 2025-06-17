@@ -57,6 +57,10 @@
     font-family: inherit;
     font-size: 1rem;
     transition: border-color 0.3s;
+    min-height: 200px;
+    max-height: 800px;
+    min-width: 200px;
+    max-width: 800px;
 }
 
 .form-group input:focus,
