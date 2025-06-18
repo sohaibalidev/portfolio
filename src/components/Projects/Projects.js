@@ -1,3 +1,4 @@
+import { Github, ExternalLink as ExternalLinkIcon } from 'lucide-react';
 import './Projects.css';
 
 const Projects = ({ id, projects }) => {
@@ -20,14 +21,24 @@ const Projects = ({ id, projects }) => {
                                 ))}
                             </div>
                             <div className="project-links view-on-github">
-                                <a href={project.githubLink} target="_blank"
+                                {/* <a href={project.githubLink} target="_blank"
                                     rel="noopener noreferrer" className="btn github-btn">
                                     View on GitHub
+                                </a> */}
+                                <a href={project.githubLink} target="_blank" rel="noopener noreferrer"
+                                    className="btn github-btn">
+                                    <Github />
+                                    <span>GitHub</span>
                                 </a>
                                 {project.demoLink !== '#' && (
-                                    <a href={project.demoLink} target="_blank"
-                                        rel="noopener noreferrer" className="btn demo-btn">
-                                        Live Demo
+                                    // <a href={project.demoLink} target="_blank"
+                                    //     rel="noopener noreferrer" className="btn demo-btn">
+                                    //     Live Demo
+                                    // </a>
+                                    <a href={project.demoLink} target="_blank" rel="noopener noreferrer"
+                                        className="btn demo-btn">
+                                        <ExternalLinkIcon />
+                                        <span>Live</span>
                                     </a>
                                 )}
                             </div>
