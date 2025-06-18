@@ -34,21 +34,24 @@ const projects = [
         description: 'A fullstack e-commerce platform with user accounts, wishlist, cart, MongoDB backend, Cloudinary image storage, and email notifications.',
         technologies: ['Express', 'MongoDB', 'Nodemailer', 'Cloudinary'],
         githubLink: 'https://github.com/muhammadsohaibali/nexaease',
-        demoLink: 'https://nexaease.netlify.app/'
+        demoLink: 'https://nexaease.netlify.app/',
+        image: '/assets/projects/nexaease-preview.png'
     },
     {
         title: 'Weather App',
         description: 'A responsive weather app that fetches real-time data using WeatherAPI and Geonames. Built with React and JavaScript.',
         technologies: ['React.js', 'WeatherAPI', 'Geonames', 'JavaScript'],
         githubLink: 'https://github.com/muhammadsohaibali/Weather-App',
-        demoLink: 'https://muhammadsohaibali.github.io/Weather-App/'
+        demoLink: 'https://muhammadsohaibali.github.io/Weather-App/',
+        image: '/assets/projects/weather-app-preview.png'
     },
     {
         title: 'Loopin Social Platform',
         description: 'A real-time social platform backend with RESTful APIs, secure authentication, and image upload support.',
         technologies: ['Express', 'MongoDB', 'NodeMailer', 'Socket.IO', 'Bcrypt', 'Cloudinary'],
         githubLink: 'https://github.com/muhammadsohaibali/Loopin',
-        demoLink: 'https://loopin-social-platform.onrender.com/'
+        demoLink: 'https://loopin-social-platform.onrender.com/',
+        image: '/assets/projects/loopin-review.png'
     }
 ];
 

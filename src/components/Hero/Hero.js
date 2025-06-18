@@ -6,7 +6,6 @@ const Hero = ({ id, setActiveSection, resumeFileName }) => {
         setActiveSection('home');
     }, [setActiveSection]);
 
-    console.log(resumeFileName)
     return (
         <section id={id} className="hero-section">
             <div className="hero-content">
