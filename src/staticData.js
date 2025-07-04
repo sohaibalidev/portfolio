@@ -38,12 +38,12 @@ const projects = [
         image: '/assets/projects/nexaease-preview.png'
     },
     {
-        title: 'Weather App',
-        description: 'A responsive weather app that fetches real-time data using WeatherAPI and Geonames. Built with React and JavaScript.',
+        title: 'ReactCast',
+        description: 'A responsive weather app using WeatherAPI and Geonames, built with React and JavaScript.',
         technologies: ['React.js', 'WeatherAPI', 'Geonames', 'JavaScript'],
-        githubLink: 'https://github.com/muhammadsohaibali/Weather-App',
-        demoLink: 'https://muhammadsohaibali.github.io/Weather-App/',
-        image: '/assets/projects/weather-app-preview.png'
+        githubLink: 'https://github.com/sohaibalidev/ReactCast',
+        demoLink: 'https://reactcast.netlify.app/',
+        image: '/assets/projects/reactcast-preview.png'
     },
     {
         title: 'Loopin Social Platform',
@@ -52,6 +52,14 @@ const projects = [
         githubLink: 'https://github.com/muhammadsohaibali/Loopin',
         demoLink: 'https://loopin-social-platform.onrender.com/',
         image: '/assets/projects/loopin-review.png'
+    },
+    {
+        title: 'Shortify',
+        description: 'A lightweight URL shortener with JWT email verification, auth system, and a dark/light themed dashboard.',
+        technologies: ['Express', 'MongoDB', 'NodeMailer', 'JWT', 'Bcrypt'],
+        githubLink: 'https://github.com/sohaibalidev/Shortify',
+        demoLink: 'https://url-shortener-shortify.onrender.com/',
+        image: '/assets/projects/shortify-preview.png'
     }
 ];
 
