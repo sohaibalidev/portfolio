@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import './Contact.css';
 
 const Contact = ({ id, Contact }) => {
-    console.log(process.env.REACT_APP_FORM_API)
-
     const [result, setResult] = useState("");
     const onSubmit = async (event) => {
         event.preventDefault();
@@ -12,7 +10,7 @@ const Contact = ({ id, Contact }) => {
 
         formData.append("access_key", process.env.REACT_APP_FORM_ACCESS_KEY);
 
-        const response = await fetch('https://api.web3forms.com/submit', {
+        const response = await fetch(`${process.env.REACT_APP_FORM_API}`, {
             method: "POST",
             body: formData
         });
